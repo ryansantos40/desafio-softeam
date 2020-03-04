@@ -1,0 +1,72 @@
+body{
+    background:rgb(70, 142, 236) ;
+    font: normal 15pt Arial;
+}
+
+header{
+    color: white;
+    text-align: center;
+}
+
+section{
+    background: white;
+    width: 500px;
+    margin: auto;
+    border-radius: 15px;
+    padding: 15px;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.644);
+}
+
+div{
+    text-align: center;
+}
+
+::placeholder{
+    color: black;
+    opacity: 1;
+    font: normal 12pt Arial;
+}
+
+#txtE{
+    border: 2px solid rgba(0, 0, 0, 0.623);
+    border-radius: 4px;
+    width: 250px;
+    height: 30px;
+    text-indent: 5px;
+    transition-duration: 0.3s;
+}
+#txtS{
+    border: 2px solid rgba(0, 0, 0, 0.623);
+    border-radius: 4px;
+    width: 250px;
+    height: 30px;
+    text-indent: 5px;
+}
+#txtCS{
+    border: 2px solid rgba(0, 0, 0, 0.623);
+    border-radius: 4px;
+    width: 250px;
+    height: 30px;
+    text-indent: 5px;
+}
+
+.Button{
+    width: 40%;
+    height: 30px;
+    border: none;
+    border-radius: 4px;
+    transition-duration: 0.8s;
+    letter-spacing: 2px;
+}
+
+.Button1{
+    background-color: rgba(128, 128, 128, 0.322);
+    color:black;
+    font: normal 13pt Arial;
+}
+
+.Button1:hover{
+    background-color: white;
+    border: 2.5px solid rgba(128, 128, 128, 0.322);
+    cursor: pointer;
+}
