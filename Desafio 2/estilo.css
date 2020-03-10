@@ -1,0 +1,124 @@
+body{
+    background: #6ac1ee;
+    margin: auto;
+    width: auto;
+}
+
+.imagem-fixa{
+    margin-top: 54px;
+    width: auto;
+}
+
+.barra-topo{
+    width: 100%;
+    position: fixed;
+    background: #01509f;
+    top: 0;
+    left: 0;
+}
+
+.barra-topo #name{
+    float: none;
+    position: absolute;
+    margin-bottom: auto;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font: bold 15pt Arial;
+    color: rgba(255, 255, 255, 0.911);
+    
+}
+
+.barra-topo #as {
+    float: right;
+    display: block;
+    text-align: center;
+    padding: 18px 16px;
+    color: rgba(255, 255, 255, 0.911);
+    font: bold 12pt Arial;
+}
+
+.barra-topo #as:hover{
+    background: #01366b;
+    color: black;
+}
+
+.posts{
+    width: auto;
+}
+
+.posts div{
+    display: block;
+    padding-left: 10px;
+    border: 5px solid #01366ba1;
+    border-radius: 5px;
+    height: 250px;
+    margin-left: 35px;
+    margin-top: 15px;
+    width: 95%;
+    background-color: white;
+}
+
+.posts h1{
+    color: teal;
+    font: bolder 25pt Arial;
+    margin: auto;
+}
+
+.posts aside{
+    padding-bottom: 5px;
+    font: normal 11pt Arial;
+    color: gray;
+}
+
+.posts img{
+    border-radius: 100%;
+    padding-right: 10px;
+}
+
+.posts p{
+    line-height: 1.8em;
+    font: normal 12pt Arial;
+    color: black;
+    text-align: justify;
+    padding-right: 5px;
+
+}
+
+.posts footer{
+    display: block;
+}
+
+.posts a{
+    text-transform: uppercase;
+    font-size: .757em;
+    background: none;
+    border: 2px solid #01509f;
+    font-family: Varela, arial, sans-serif;
+    display: inline-block;
+    text-align: center;
+    padding: 1em 1.38em;
+    font-weight: bold;
+    line-height: 1.618em;
+    box-sizing: border-box;
+    border-radius: 5px;
+    color: black;
+}
+.posts a:hover{
+    background: #01366b;
+    color: white;
+
+}
+
+#test{
+    float: left;
+    
+}
+
+.bottom div{
+    text-align: center;
+}
+.bottom p{
+    font: bold 15pt Arial;
+    color: rgba(255, 255, 255, 0.842);
+}
